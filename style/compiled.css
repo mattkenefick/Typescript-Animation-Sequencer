@@ -1,0 +1,44 @@
+
+
+button {
+    clear: both;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+main {
+    border: 2px solid #222;
+    border-radius: 20px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    width: 250px;
+}
+
+main.animated-in {
+    border-color: green;
+}
+
+main.animated-out {
+    border-color: red;
+}
+
+main .view {
+    background: #f1f1f1;
+    border-radius: 20px;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.actions {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
